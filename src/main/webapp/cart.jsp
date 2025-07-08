@@ -104,6 +104,9 @@
 }
 .content h3 {
 	margin-bottom: 30px;
+	width:90%;
+	height:25px;
+	overflow:hidden;
 }
 .content h4 {
 	margin-bottom: 50px;
@@ -514,7 +517,8 @@ left:1%;
   <table border="none">
         <% 
        
-
+        
+        
           try {
             
             String sessionUid = (String) session.getAttribute("uid");
@@ -535,6 +539,8 @@ left:1%;
 
               while (rs.next()) {
                 
+            	  
+            	
 
         %>
         
@@ -592,18 +598,18 @@ left:1%;
         %>
         
         
-        <tr>
+       <tr>
         
         
       </div>
       <div class="right-bar">
-        <p><span>Subtotal</span> <span>&#8377;100</span></p>
+        
+        
+        <p><span><b>Subtotal</b></span> <span><sup>&#8377;</sup> <b></b></span></p>
         <hr>
-        <p><span>Shipping</span> <span>&#8377;70</span></p>
-        <hr>
-        <p><span>Total</span> <span>&#8377;200</span></p>
-        <hr>
-        <a href="#"><i class="uil uil-shopping-cart"></i>Checkout</a>
+         <p><img style="width:30px;" src="image/accept.png" ><span style="color:#3366ff; margin-right:734px;">EMI Available Here.</span></p>
+        <p><img style="width:30px;" src="image/accept.png" ><span style="color:#00cc00; margin-right:500px;">Part of your order Qualifies for FREE Delivery.</span></p>
+        <a href="#"><i class="uil uil-box"></i>Proceed to Buy</a>
         <a href="shop.jsp"  id="home">
           <i class="uil uil-home"></i>Continue Shopping
         </a>

@@ -141,6 +141,12 @@ margin-top: 10%;
 
 }
 
+content h2{
+width:95%;
+height:35px;
+overflow:hidden;
+}
+
 .main-images img{
     
     width: 400px;

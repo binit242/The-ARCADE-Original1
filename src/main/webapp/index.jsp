@@ -244,7 +244,7 @@
             
             
    
-        <i id="cart-box" aria-controls="cart-icon" class="uil uil-shopping-bag" onclick="togcart()" style="text-decoration: none;"></i><span class="cart-count" id="cartCount"><%=cc%></span>
+       <i id="cart-box" aria-controls="cart-icon" class="uil uil-shopping-bag" onclick="togcart()" style="text-decoration: none;"></i>  <span class="cart-count" id="cartCount"><%=cc%></span>
         
         
         <% } catch (Exception e) {
